@@ -1,0 +1,12 @@
+{% autoescape off %}
+    <p>{{ comment_text }}</p>
+    <a href="http://localhost:8000{{ url }}">点击查看</a>
+{% endautoescape %}
+
+
+
+<!-- 去除发送邮件内容的p标签
+{{ comment_text|safe }}
+<br>
+<a href="http://localhost:8000{{ url }}">点击查看</a>
+-->
